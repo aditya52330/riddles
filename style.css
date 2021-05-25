@@ -1,0 +1,171 @@
+* {
+  font-family: "Cabin", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#branding {
+  color: chocolate;
+  background-color: cyan;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+.adi {
+  list-style: none;
+  background-color: darkcyan;
+  padding: 1pc;
+}
+
+.adi ul li {
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+.adi ul li a {
+  text-decoration: none;
+  color: rgb(218, 214, 27);
+  text-transform: uppercase;
+}
+
+.adi ul li a:hover {
+  color: rgb(72, 218, 27);
+  font-weight: bolder;
+}
+
+.rule h3 {
+  text-align: center;
+  color: #184a45ff;
+}
+
+.rule {
+  border: 20px rgb(18, 52, 145) solid;
+  color: rgb(182, 111, 44);
+  padding: 20px;
+  margin: 20px;
+}
+
+.rule ul {
+  list-style: none;
+}
+
+.rule ul li {
+  border: darkred 5px double;
+  margin: 20px;
+  padding: 10px;
+}
+
+.easy {
+  border: firebrick 10px solid;
+  margin: 20px;
+  padding: 10px;
+}
+
+.easy h2 {
+  text-align: center;
+}
+
+.easy ul {
+  list-style: none;
+}
+
+.easy ul li {
+  border: fuchsia 5px double;
+  margin: 5px;
+  padding: 10px;
+}
+
+.norm {
+  border: rgb(34, 101, 178) 10px solid;
+  margin: 20px;
+  padding: 10px;
+}
+
+.norm h2 {
+  text-align: center;
+}
+
+.norm ul {
+  list-style: none;
+}
+
+.norm ul li {
+  border: rgb(0, 255, 21) 5px double;
+  margin: 5px;
+  padding: 10px;
+}
+
+.hard {
+  border: rgb(113, 34, 178) 10px solid;
+  margin: 20px;
+  padding: 10px;
+}
+
+.hard h2 {
+  text-align: center;
+}
+
+.hard ul {
+  list-style: none;
+}
+
+.hard ul li {
+  border: rgb(255, 17, 0) 5px double;
+  margin: 5px;
+  padding: 10px;
+}
+
+.tough {
+  border: rgb(113, 34, 178) 10px solid;
+  margin: 20px;
+  padding: 10px;
+}
+
+.tough h2 {
+  text-align: center;
+}
+
+.tough ul {
+  list-style: none;
+}
+
+.tough ul li {
+  border: rgb(0, 183, 255) 5px double;
+  margin: 5px;
+  padding: 10px;
+}
+
+.imp {
+  border: rgb(178, 34, 65) 10px solid;
+  margin: 20px;
+  padding: 10px;
+}
+
+.imp h2 {
+  text-align: center;
+}
+
+.imp ul {
+  list-style: none;
+}
+
+.imp ul li {
+  border: rgb(195, 0, 255) 5px double;
+  margin: 5px;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: forestgreen;
+  color: gold;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  .img {
+    height: 100%;
+    width: 100%;
+  }
+}
